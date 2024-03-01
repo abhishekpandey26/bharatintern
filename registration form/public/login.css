@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(#fb009f,#fe0202);
+    font-family: 'Pacifico', cursive; /* Changed font-family */
+}
+
+.container {
+    text-align: center;
+}
+
+.text {
+    color: #fff;
+    letter-spacing: 1px;
+    margin: 10px;
+}
+
+.page {
+    width: 350px;
+    background-color: white;
+    border-radius: 5px;
+    padding-bottom: 15px;
+}
+
+.title {
+    padding: 30px 0;
+    text-transform: capitalize;
+    font-size: 35px;
+    color: #043fff; /* Changed title color */
+}
+
+form {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+form input {
+    margin-bottom: px;
+    border: 1px solid rgba (0,0,0,0.4);
+}
+
+form input:focus {
+    border: 1px solid rgba (0,0,0,0.7);
+    background: #efefef;
+}
+
+input {
+    padding-left: 10px;
+    position: relative;
+    height: 35px;
+    font-size: 17px;
+    margin-bottom: 5px;
+}
+
+input::placeholder {
+    font-weight: normal;
+    font-size: 13px;
+    transition: .3s ease;
+}
+
+input:focus::placeholder {
+    position: absolute;
+    font-size: 10px;
+    transform: translateY(-7px);
+}
+
+form button {
+    border: none;
+    background-color: #043fff;
+    padding: 5px 0;
+    margin-top: 5px;
+    color: #fff;
+    border-radius: 3px;
+    font-weight: bold;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    outline: none;
+    cursor: pointer;
+}
+
+form button:active {
+    background: #2c58fe;
+    transform: scale(0.995);
+}
+
+.forget {
+    margin: 15px;
+}
+
+.forget a {
+    text-decoration: none;
+    color: #025fd2;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.page .signup {
+    position: relative;
+    border: 1px solid #b6b6b6;
+    border-radius: 2px;
+    width: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 30px;
+}
+
+.signup a {
+    text-decoration: none;
+    margin-left: 5px;
+    color: #008aff;
+    font-weight: bold;
+}
